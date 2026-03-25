@@ -1,0 +1,189 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --whitecolor:#fff
+}
+
+#headnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.Nav1 , .Nav2{
+  display: flex;
+  gap: 20px;
+}
+
+body{
+margin: 0;
+}
+
+#fishbackground{
+  width: 1440px;
+  height: 1081px;
+  opacity: 0.7;
+}
+.section1{
+height: 1081px;
+position: relative;
+background-image: url(img/tempImage7JMJTE\ 1.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.section1 h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 44px;
+  color: #fff;
+  opacity: 0.7;
+}
+.section2 {
+  background-color: #CAE7ED;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  align-items: center;
+  gap: 56px;
+  height: 640px;
+  border-radius: 49px;
+  position: relative;
+  bottom: 40px;
+}
+
+.articleph{
+ width: 350px;
+ text-align: center;
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: var(--font-family);
+ height: 463px;
+}
+
+.articleph h3{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #0a3d62;
+}
+
+.articleph h2{
+ font-family: var(--font-family);
+ font-weight: 600;
+ font-size: 25px;
+ color: #0a3d62;
+}
+
+.header a{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #0a3d62;
+  text-decoration: none;
+}
+
+.artitext{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 228px;
+}
+
+.imgfishh{
+border-radius: 25px;
+width: 516px;
+height: 344px;
+}
+
+.storynav{
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 108px;
+  padding-left: 106px;
+  gap: 166px;
+}
+
+.storytext1{
+  width: 544px;
+  height: 322px;
+}
+
+.storytext1 h2{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 44px;
+color: #0a3d62;
+}
+
+.storytext1 h3{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+color: #0a3d62;
+}
+
+.storytext1{
+  width: 544px;
+  height: 322px;
+}
+
+.oceansalt{
+width: 603px;
+height: 295px;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 44px;
+color: #fff;
+display: flex;
+gap: 20px;
+flex-direction: column;
+}
+
+.saltyAN{
+background: #4a919e;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+height: 585px;
+gap: 79px;
+}
+
+.fishFritt{
+  border-radius: 25px;
+  width: 682px;
+  height: 455px;
+  padding-right: 21.50px;
+}
+
+.footer1{
+background-color: var(--whitecolor);
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding-top: 61px;
+padding-bottom: 40px;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+line-height: 144%;
+color: #0a3d62;
+}
+
+.svg1{
+  gap: 26px;
+}
