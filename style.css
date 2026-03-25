@@ -106,12 +106,15 @@ height: 228px;
 border-radius: 25px;
 width: 516px;
 height: 344px;
+padding-bottom: 116px;
+padding-top: 76px;
 }
 
 .storynav{
   background: #fff;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding-right: 108px;
   padding-left: 106px;
   gap: 166px;
@@ -120,6 +123,7 @@ height: 344px;
 .storytext1{
   width: 544px;
   height: 322px;
+  
 }
 
 .storytext1 h2{
